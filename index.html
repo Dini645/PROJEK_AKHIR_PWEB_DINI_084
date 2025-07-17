@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌸 DIGITAL DIARY OF DINI 🌸</title>
+  <!-- Menghubungkan file CSS eksternal -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🌸 DIGITAL DIARY OF DINI 🌸</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#portfolio">Portofolio</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <aside class="profil">
+      <img src="foto.jpg" class="foto-profil" alt="Foto Dini">
+      <div class="identitas"></div>
+      <p><strong>NAMA: DINI</strong></p>
+      <p><strong>PENDIDIKAN: MAHASISWA</strong></p>
+      <P><strong>PROGRAM STUDI: INFORMATIKA</strong></P>
+      <p><strong>HOBI: BADMINTON & MEMBACA NOVEL</strong></p>
+      <p><strong>WARNA FAVORIT: PINK</strong></p>
+      </div>
+    </aside>
+  
+    <article id="about">
+      <h2>Tentang Saya</h2>
+        <p>Saya adalah mahasiswa program studi Informatika di Universitas Ahmad Dahla. saat ini saya 
+        masih semester 2. Saya memilih jurusan ini, karena Saya memiliki minat besar dalam dunia teknologi, 
+        khususnya dalam pengembangan web dan pemrograman. Saat ini, saya sedang mempelajari dasar-dasar HTML,
+        CSS, JavaScript, dan PHP untuk membangun aplikasi web. Di waktu luang, saya suka mencoba membuat proyek
+        pribadi seperti website sederhana serta mengikuti kursus online untuk meningkatkan keterampilan saya. Saya
+        percaya bahwa belajar secara konsisten dan praktik langsung adalah kunci untuk menjadi mahasiswa yang sukses 
+        dan siap menghadapi dunia kerja.
+        </p>
+
+      <h2 id="portfolio">Portofolio</h2>
+      <p>Sejauh ini, saya masih terus belajar tentang komputer dan pengembangan website. Adapun keahlian yang saya miliki yaitu:</p>
+        <p>💻 Membuat Website Dasar HTML, CSS, dan JS</p>
+        <p>💻 Servis Laptop</p>
+        <p>⌨ Ganti Keyboard</p>
+        <p>📶 Instal Perangkat Jaringan</p>
+        <p>Harapan saya ke depan adalah terus mengembangkan keterampilan di bidang IT dan dapat bekerja di perusahaan besar 
+        bersama orang-orang hebat di bidang teknologi. Saya juga bercita-cita membuat aplikasi yang bermanfaat bagi masyarakat, 
+        seperti aplikasi bimbingan belajar (bimbel) dan aplikasi pencari kerja yang membantu orang menemukan peluang pekerjaan 
+        dengan lebih mudah.
+        </p>
+    </article>
+  </main>
+
+  <footer>
+    <section id="contact">
+      <h2>Hubungi Saya</h2>
+      <form action="proses.php" method="post" onsubmit="return validateForm();">
+        <input type="text" name="nama" id="nama" placeholder="Nama" required>
+        <textarea name="pesan" id="pesan" placeholder="Pesan" required></textarea>
+        <input type="text" name="gmail" id="gmail" placeholder="Gmail" required>
+        <input type="submit" value="Kirim">
+      </form>
+    </section>
+    <p>&copy; Dini 2025 </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
